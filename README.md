@@ -13,6 +13,7 @@ Launch Autopsy from the terminal or application menu and create a new case.
 Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
 ## PROGRAM:
+```
 Autopsy Installation and Analysis Steps
 Install Autopsy (GUI-based Forensic Tool)
 🔗 Download Autopsy: Click Here
@@ -40,7 +41,7 @@ Choose a location and set a disk size (e.g., 10GB+).
 Select Fixed Size or Dynamically Expanding and click OK.
 In Disk Management, find your new disk (marked as "Not Initialized") -> Right-click the new disk → Initialize Disk → Select MBR.
 Right-click Unallocated Space → New Simple Volume → Format the disk -> Click next → Finish.
-
+```
 
 ## OUTPUT:
 File and Folder Configuration Analysis Results
