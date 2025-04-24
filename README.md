@@ -13,19 +13,18 @@ Launch Autopsy from the terminal or application menu and create a new case.
 Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
 ## PROGRAM:
-```
-Autopsy Installation and Analysis Steps
+## Autopsy Installation and Analysis Steps
 Install Autopsy (GUI-based Forensic Tool)
 🔗 Download Autopsy: Click Here
 
-Installation Steps:
+## Installation Steps:
 Download the Autopsy Windows Installer from the official website.
 Extract the ZIP file and open the bin folder.
 Run autopsy.exe and set up a new forensic case for analysis.
-Step 4: Install Sleuth Kit (CLI-based Forensic Tools)
+## Install Sleuth Kit (CLI-based Forensic Tools)
 🔗 Download Sleuth Kit: Click Here
 
-Installation Steps:
+## Installation Steps:
 Download the Windows ZIP package from the official website.
 Extract the ZIP folder and move it to a suitable directory (e.g., C:\sleuthkit).
 Add the bin folder to Windows PATH:
@@ -34,14 +33,14 @@ Click Environment Variables → Edit Path.
 Add the Sleuth Kit bin folder path and save changes.
 Verify installation by running:
 fls -version
-Step 5: Create & Configure a Virtual Hard Disk (VHD) in Windows
+## Create & Configure a Virtual Hard Disk (VHD) in Windows
 Press Win + X, Select Disk Management.
 Click Action > Create VHD.
 Choose a location and set a disk size (e.g., 10GB+).
 Select Fixed Size or Dynamically Expanding and click OK.
 In Disk Management, find your new disk (marked as "Not Initialized") -> Right-click the new disk → Initialize Disk → Select MBR.
 Right-click Unallocated Space → New Simple Volume → Format the disk -> Click next → Finish.
-```
+
 
 ## OUTPUT:
 File and Folder Configuration Analysis Results
